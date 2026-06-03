@@ -1,325 +1,245 @@
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Web Design Research — clone gallery</title>
+<title>Web Design Research — faithful clones</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0f1115;color:#e8eaed;padding:24px}
-h1{font-size:26px;margin-bottom:4px}
-.sub{color:#9aa0a6;margin-bottom:24px;font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
-.card{background:#1a1d24;border:1px solid #2a2e37;border-radius:14px;overflow:hidden}
-.head{display:flex;justify-content:space-between;align-items:baseline;padding:14px 16px 6px}
-.head b{font-size:18px;text-transform:capitalize}
-.head span{font-size:11px;color:#9aa0a6}
-.swatch{display:flex;gap:0;padding:0 16px 10px}
-.swatch i{width:26px;height:18px;border-radius:3px;margin-right:4px;border:1px solid #333}
-.shots{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:0 10px}
-.shots img{width:100%;height:120px;object-fit:cover;object-position:top;border-radius:6px;background:#222;display:block}
-figure{position:relative}
-figcaption{position:absolute;bottom:4px;left:4px;background:rgba(0,0,0,.7);color:#fff;font-size:10px;padding:2px 6px;border-radius:4px}
-.actions{display:flex;align-items:center;justify-content:space-between;padding:12px 16px 16px}
-.btn{background:#1151ff;color:#fff;text-decoration:none;padding:9px 14px;border-radius:8px;font-size:13px;font-weight:600}
+body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0d0f13;color:#e8eaed;padding:22px}
+h1{font-size:25px;margin-bottom:4px}
+.sub{color:#9aa0a6;margin-bottom:8px;font-size:14px;line-height:1.5}
+.legend{color:#9aa0a6;font-size:12px;margin-bottom:22px}
+.legend b{color:#e8eaed}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px}
+.card{background:#161a21;border:1px solid #262b34;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.card.blocked{opacity:.72}
+.head{display:flex;justify-content:space-between;align-items:center;padding:13px 15px 8px}
+.head b{font-size:17px;text-transform:capitalize}
+.tag{font-size:10px;padding:3px 8px;border-radius:20px;font-weight:600}
+.tag.ok{background:#0c3;color:#031}
+.tag.warn{background:#fb3;color:#310}
+.swatch{display:flex;gap:4px;padding:0 15px 9px}
+.swatch i{width:30px;height:16px;border-radius:3px;border:1px solid #333}
+.shot{width:100%;height:200px;object-fit:cover;object-position:top;background:#222;display:block;border-top:1px solid #262b34;border-bottom:1px solid #262b34}
+.blockbox{margin:10px 15px;padding:22px 14px;background:#1d2128;border-radius:10px;font-size:13px;color:#b9bfc7;text-align:center;line-height:1.6}
+.actions{display:flex;align-items:center;justify-content:space-between;padding:12px 15px}
+.btn{background:#1151ff;color:#fff;text-decoration:none;padding:9px 13px;border-radius:8px;font-size:12.5px;font-weight:600}
 .lnk{color:#9aa0a6;font-size:12px;text-decoration:none}
+.tech{color:#6b7280;font-size:11px;padding:0 15px 14px}
 </style></head><body>
-<h1>Web Design Research — Clone Gallery</h1>
-<div class="sub">25 brands · left = real site screenshot, right = my interactive clone · click "Open live clone" and test hover/click. STATUS for each: see design notes (Tomer hasn't tested yet).</div>
-<div class="grid"><div class="card">
-    <div class="head"><b>adidas</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#1151ff"></i></div>
-    <div class="shots">
-      <a href="companies/adidas/index.html" target="_blank"><figure><img src="companies/adidas/clone-preview.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/adidas/clone-preview.png" target="_blank"><figure><img src="companies/adidas/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
+<h1>Web Design Research — Faithful Clones</h1>
+<div class="sub">18 faithful copies you can open, hover and scroll. Each is the REAL rendered page (real CSS, real images), with scripts removed so links don't navigate. <b>Tomer hasn't tested yet</b> — click "Open faithful copy" and check it behaves like the original.</div>
+<div class="legend"><b>18 faithful</b> · <b>7 blocked</b> by bot protection (luxury/retail sites shield against servers — that's a wall, not a bug).</div>
+<div class="grid"><div class="card done">
+      <div class="head"><b>airbnb</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#222222"></i><i style="background:#6a6a6a"></i></div>
+      <a href="companies/airbnb/snapshot.html" target="_blank"><img class="shot" src="companies/airbnb/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/airbnb/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/airbnb/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React</div>
     </div>
-    <div class="actions">
-      <a class="btn" href="companies/adidas/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/adidas/README.md" target="_blank">design notes</a>
+<div class="card done">
+      <div class="head"><b>apple</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#1d1d1f"></i><i style="background:#e8e8ed"></i></div>
+      <a href="companies/apple/snapshot.html" target="_blank"><img class="shot" src="companies/apple/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/apple/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/apple/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech"></div>
     </div>
+<div class="card done">
+      <div class="head"><b>applestore</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#f5f5f7"></i><i style="background:#1d1d1f"></i><i style="background:#333336"></i></div>
+      <a href="companies/applestore/snapshot.html" target="_blank"><img class="shot" src="companies/applestore/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/applestore/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/applestore/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>balenciaga</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#767676"></i></div>
+      <a href="companies/balenciaga/snapshot.html" target="_blank"><img class="shot" src="companies/balenciaga/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/balenciaga/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/balenciaga/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech"></div>
+    </div>
+<div class="card done">
+      <div class="head"><b>chatgpt</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#ffffff"></i></div>
+      <a href="companies/chatgpt/snapshot.html" target="_blank"><img class="shot" src="companies/chatgpt/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/chatgpt/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/chatgpt/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">Next.js / React, React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>claude</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#f8f8f6"></i><i style="background:#121212"></i><i style="background:#141413"></i></div>
+      <a href="companies/claude/snapshot.html" target="_blank"><img class="shot" src="companies/claude/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/claude/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/claude/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>cocacola</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#eeeeee"></i><i style="background:#000000"></i><i style="background:#d5d5d5"></i></div>
+      <a href="companies/cocacola/snapshot.html" target="_blank"><img class="shot" src="companies/cocacola/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/cocacola/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/cocacola/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech"></div>
+    </div>
+<div class="card done">
+      <div class="head"><b>davidyurman</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#6b6b6b"></i></div>
+      <a href="companies/davidyurman/snapshot.html" target="_blank"><img class="shot" src="companies/davidyurman/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/davidyurman/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/davidyurman/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech"></div>
+    </div>
+<div class="card done">
+      <div class="head"><b>duolingo</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#3c3c3c"></i><i style="background:#777777"></i></div>
+      <a href="companies/duolingo/snapshot.html" target="_blank"><img class="shot" src="companies/duolingo/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/duolingo/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/duolingo/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>figma</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#33dfdf"></i></div>
+      <a href="companies/figma/snapshot.html" target="_blank"><img class="shot" src="companies/figma/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/figma/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/figma/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">Next.js / React, React, Framer</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>glossier</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#666666"></i></div>
+      <a href="companies/glossier/snapshot.html" target="_blank"><img class="shot" src="companies/glossier/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/glossier/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/glossier/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React, Shopify</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>nike</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#111111"></i><i style="background:#707072"></i></div>
+      <a href="companies/nike/snapshot.html" target="_blank"><img class="shot" src="companies/nike/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/nike/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/nike/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">Next.js / React, React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>nordstrom</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#191a1b"></i><i style="background:#191a1b"></i><i style="background:#647175"></i></div>
+      <a href="companies/nordstrom/snapshot.html" target="_blank"><img class="shot" src="companies/nordstrom/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/nordstrom/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/nordstrom/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>notion</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#191918"></i><i style="background:#000000"></i><i style="background:#f6f5f4"></i></div>
+      <a href="companies/notion/snapshot.html" target="_blank"><img class="shot" src="companies/notion/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/notion/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/notion/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">Next.js / React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>pandora</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#211710"></i><i style="background:#71706c"></i></div>
+      <a href="companies/pandora/snapshot.html" target="_blank"><img class="shot" src="companies/pandora/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/pandora/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/pandora/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>shopify</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#000000"></i><i style="background:#000000"></i><i style="background:#a1a1aa"></i></div>
+      <a href="companies/shopify/snapshot.html" target="_blank"><img class="shot" src="companies/shopify/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/shopify/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/shopify/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React, Shopify</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>spotify</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#1ed760"></i><i style="background:#b3b3b3"></i><i style="background:#7c7c7c"></i></div>
+      <a href="companies/spotify/snapshot.html" target="_blank"><img class="shot" src="companies/spotify/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/spotify/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/spotify/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">React</div>
+    </div>
+<div class="card done">
+      <div class="head"><b>starbucks</b><span class="tag ok">faithful</span></div>
+      <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#008248"></i></div>
+      <a href="companies/starbucks/snapshot.html" target="_blank"><img class="shot" src="companies/starbucks/snapshot-preview.png" loading="lazy"></a>
+      <div class="actions">
+        <a class="btn" href="companies/starbucks/snapshot.html" target="_blank">▶ Open faithful copy (test hover/scroll)</a>
+        <a class="lnk" href="companies/starbucks/design-tokens.json" target="_blank">tokens</a>
+      </div>
+      <div class="tech">Next.js / React</div>
+    </div>
+<div class="card blocked">
+    <div class="head"><b>adidas</b><span class="tag warn">blocked</span></div>
+    <div class="blockbox">🛡️ Blocked by the site's bot protection (Akamai/Cloudflare).<br>Can't snapshot from a server. Design tokens were still extracted.</div>
+    <div class="actions"><a class="lnk" href="companies/adidas/design-tokens.json" target="_blank">view extracted tokens</a></div>
   </div>
-<div class="card">
-    <div class="head"><b>airbnb</b><span>React</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#222222"></i><i style="background:#6a6a6a"></i></div>
-    <div class="shots">
-      <a href="companies/airbnb/screenshot-desktop.png" target="_blank"><figure><img src="companies/airbnb/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/airbnb/clone-preview.png" target="_blank"><figure><img src="companies/airbnb/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/airbnb/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/airbnb/README.md" target="_blank">design notes</a>
-    </div>
+<div class="card blocked">
+    <div class="head"><b>cartier</b><span class="tag warn">blocked</span></div>
+    <div class="blockbox">🛡️ Blocked by the site's bot protection (Akamai/Cloudflare).<br>Can't snapshot from a server. Design tokens were still extracted.</div>
+    <div class="actions"><a class="lnk" href="companies/cartier/design-tokens.json" target="_blank">view extracted tokens</a></div>
   </div>
-<div class="card">
-    <div class="head"><b>apple</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#1d1d1f"></i><i style="background:#e8e8ed"></i></div>
-    <div class="shots">
-      <a href="companies/apple/screenshot-desktop.png" target="_blank"><figure><img src="companies/apple/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/apple/clone-preview.png" target="_blank"><figure><img src="companies/apple/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/apple/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/apple/README.md" target="_blank">design notes</a>
-    </div>
+<div class="card blocked">
+    <div class="head"><b>gucci</b><span class="tag warn">blocked</span></div>
+    <div class="blockbox">🛡️ Blocked by the site's bot protection (Akamai/Cloudflare).<br>Can't snapshot from a server. Design tokens were still extracted.</div>
+    <div class="actions"><a class="lnk" href="companies/gucci/design-tokens.json" target="_blank">view extracted tokens</a></div>
   </div>
-<div class="card">
-    <div class="head"><b>applestore</b><span>React</span></div>
-    <div class="swatch"><i style="background:#f5f5f7"></i><i style="background:#1d1d1f"></i><i style="background:#333336"></i></div>
-    <div class="shots">
-      <a href="companies/applestore/screenshot-desktop.png" target="_blank"><figure><img src="companies/applestore/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/applestore/clone-preview.png" target="_blank"><figure><img src="companies/applestore/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/applestore/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/applestore/README.md" target="_blank">design notes</a>
-    </div>
+<div class="card blocked">
+    <div class="head"><b>louisvuitton</b><span class="tag warn">blocked</span></div>
+    <div class="blockbox">🛡️ Blocked by the site's bot protection (Akamai/Cloudflare).<br>Can't snapshot from a server. Design tokens were still extracted.</div>
+    <div class="actions"><a class="lnk" href="companies/louisvuitton/design-tokens.json" target="_blank">view extracted tokens</a></div>
   </div>
-<div class="card">
-    <div class="head"><b>balenciaga</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#767676"></i></div>
-    <div class="shots">
-      <a href="companies/balenciaga/screenshot-desktop.png" target="_blank"><figure><img src="companies/balenciaga/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/balenciaga/clone-preview.png" target="_blank"><figure><img src="companies/balenciaga/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/balenciaga/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/balenciaga/README.md" target="_blank">design notes</a>
-    </div>
+<div class="card blocked">
+    <div class="head"><b>lululemon</b><span class="tag warn">blocked</span></div>
+    <div class="blockbox">🛡️ Blocked by the site's bot protection (Akamai/Cloudflare).<br>Can't snapshot from a server. Design tokens were still extracted.</div>
+    <div class="actions"><a class="lnk" href="companies/lululemon/design-tokens.json" target="_blank">view extracted tokens</a></div>
   </div>
-<div class="card">
-    <div class="head"><b>cartier</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#1151ff"></i></div>
-    <div class="shots">
-      <a href="companies/cartier/screenshot-desktop.png" target="_blank"><figure><img src="companies/cartier/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/cartier/clone-preview.png" target="_blank"><figure><img src="companies/cartier/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/cartier/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/cartier/README.md" target="_blank">design notes</a>
-    </div>
+<div class="card blocked">
+    <div class="head"><b>rolex</b><span class="tag warn">blocked</span></div>
+    <div class="blockbox">🛡️ Blocked by the site's bot protection (Akamai/Cloudflare).<br>Can't snapshot from a server. Design tokens were still extracted.</div>
+    <div class="actions"><a class="lnk" href="companies/rolex/design-tokens.json" target="_blank">view extracted tokens</a></div>
   </div>
-<div class="card">
-    <div class="head"><b>chatgpt</b><span>Next.js / React, React</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#ffffff"></i></div>
-    <div class="shots">
-      <a href="companies/chatgpt/screenshot-desktop.png" target="_blank"><figure><img src="companies/chatgpt/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/chatgpt/clone-preview.png" target="_blank"><figure><img src="companies/chatgpt/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/chatgpt/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/chatgpt/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>claude</b><span>React</span></div>
-    <div class="swatch"><i style="background:#f8f8f6"></i><i style="background:#121212"></i><i style="background:#141413"></i></div>
-    <div class="shots">
-      <a href="companies/claude/screenshot-desktop.png" target="_blank"><figure><img src="companies/claude/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/claude/clone-preview.png" target="_blank"><figure><img src="companies/claude/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/claude/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/claude/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>cocacola</b><span></span></div>
-    <div class="swatch"><i style="background:#eeeeee"></i><i style="background:#000000"></i><i style="background:#d5d5d5"></i></div>
-    <div class="shots">
-      <a href="companies/cocacola/screenshot-desktop.png" target="_blank"><figure><img src="companies/cocacola/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/cocacola/clone-preview.png" target="_blank"><figure><img src="companies/cocacola/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/cocacola/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/cocacola/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>davidyurman</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#6b6b6b"></i></div>
-    <div class="shots">
-      <a href="companies/davidyurman/screenshot-desktop.png" target="_blank"><figure><img src="companies/davidyurman/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/davidyurman/clone-preview.png" target="_blank"><figure><img src="companies/davidyurman/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/davidyurman/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/davidyurman/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>duolingo</b><span>React</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#3c3c3c"></i><i style="background:#777777"></i></div>
-    <div class="shots">
-      <a href="companies/duolingo/screenshot-desktop.png" target="_blank"><figure><img src="companies/duolingo/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/duolingo/clone-preview.png" target="_blank"><figure><img src="companies/duolingo/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/duolingo/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/duolingo/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>figma</b><span>Next.js / React, React, Framer</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#33dfdf"></i></div>
-    <div class="shots">
-      <a href="companies/figma/screenshot-desktop.png" target="_blank"><figure><img src="companies/figma/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/figma/clone-preview.png" target="_blank"><figure><img src="companies/figma/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/figma/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/figma/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>glossier</b><span>React, Shopify</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#666666"></i></div>
-    <div class="shots">
-      <a href="companies/glossier/screenshot-desktop.png" target="_blank"><figure><img src="companies/glossier/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/glossier/clone-preview.png" target="_blank"><figure><img src="companies/glossier/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/glossier/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/glossier/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>gucci</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#1151ff"></i></div>
-    <div class="shots">
-      <a href="companies/gucci/screenshot-desktop.png" target="_blank"><figure><img src="companies/gucci/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/gucci/clone-preview.png" target="_blank"><figure><img src="companies/gucci/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/gucci/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/gucci/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>louisvuitton</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#ffffff"></i></div>
-    <div class="shots">
-      <a href="companies/louisvuitton/screenshot-desktop.png" target="_blank"><figure><img src="companies/louisvuitton/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/louisvuitton/clone-preview.png" target="_blank"><figure><img src="companies/louisvuitton/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/louisvuitton/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/louisvuitton/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>lululemon</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#1151ff"></i></div>
-    <div class="shots">
-      <a href="companies/lululemon/screenshot-desktop.png" target="_blank"><figure><img src="companies/lululemon/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/lululemon/clone-preview.png" target="_blank"><figure><img src="companies/lululemon/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/lululemon/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/lululemon/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>nike</b><span>Next.js / React, React</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#111111"></i><i style="background:#707072"></i></div>
-    <div class="shots">
-      <a href="companies/nike/screenshot-desktop.png" target="_blank"><figure><img src="companies/nike/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/nike/clone-preview.png" target="_blank"><figure><img src="companies/nike/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/nike/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/nike/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>nordstrom</b><span>React</span></div>
-    <div class="swatch"><i style="background:#191a1b"></i><i style="background:#191a1b"></i><i style="background:#647175"></i></div>
-    <div class="shots">
-      <a href="companies/nordstrom/screenshot-desktop.png" target="_blank"><figure><img src="companies/nordstrom/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/nordstrom/clone-preview.png" target="_blank"><figure><img src="companies/nordstrom/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/nordstrom/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/nordstrom/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>notion</b><span>Next.js / React</span></div>
-    <div class="swatch"><i style="background:#191918"></i><i style="background:#000000"></i><i style="background:#f6f5f4"></i></div>
-    <div class="shots">
-      <a href="companies/notion/screenshot-desktop.png" target="_blank"><figure><img src="companies/notion/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/notion/clone-preview.png" target="_blank"><figure><img src="companies/notion/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/notion/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/notion/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>pandora</b><span>React</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#211710"></i><i style="background:#71706c"></i></div>
-    <div class="shots">
-      <a href="companies/pandora/screenshot-desktop.png" target="_blank"><figure><img src="companies/pandora/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/pandora/clone-preview.png" target="_blank"><figure><img src="companies/pandora/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/pandora/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/pandora/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>rolex</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#1151ff"></i></div>
-    <div class="shots">
-      <a href="companies/rolex/screenshot-desktop.png" target="_blank"><figure><img src="companies/rolex/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/rolex/clone-preview.png" target="_blank"><figure><img src="companies/rolex/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/rolex/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/rolex/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>shopify</b><span>React, Shopify</span></div>
-    <div class="swatch"><i style="background:#000000"></i><i style="background:#000000"></i><i style="background:#a1a1aa"></i></div>
-    <div class="shots">
-      <a href="companies/shopify/screenshot-desktop.png" target="_blank"><figure><img src="companies/shopify/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/shopify/clone-preview.png" target="_blank"><figure><img src="companies/shopify/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/shopify/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/shopify/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>spotify</b><span>React</span></div>
-    <div class="swatch"><i style="background:#1ed760"></i><i style="background:#b3b3b3"></i><i style="background:#7c7c7c"></i></div>
-    <div class="shots">
-      <a href="companies/spotify/screenshot-desktop.png" target="_blank"><figure><img src="companies/spotify/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/spotify/clone-preview.png" target="_blank"><figure><img src="companies/spotify/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/spotify/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/spotify/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>starbucks</b><span>Next.js / React</span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#008248"></i></div>
-    <div class="shots">
-      <a href="companies/starbucks/screenshot-desktop.png" target="_blank"><figure><img src="companies/starbucks/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/starbucks/clone-preview.png" target="_blank"><figure><img src="companies/starbucks/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/starbucks/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/starbucks/README.md" target="_blank">design notes</a>
-    </div>
-  </div>
-<div class="card">
-    <div class="head"><b>tiffany</b><span></span></div>
-    <div class="swatch"><i style="background:#ffffff"></i><i style="background:#000000"></i><i style="background:#1151ff"></i></div>
-    <div class="shots">
-      <a href="companies/tiffany/screenshot-desktop.png" target="_blank"><figure><img src="companies/tiffany/screenshot-desktop.png" loading="lazy"><figcaption>real site</figcaption></figure></a>
-      <a href="companies/tiffany/clone-preview.png" target="_blank"><figure><img src="companies/tiffany/clone-preview.png" loading="lazy"><figcaption>my clone</figcaption></figure></a>
-    </div>
-    <div class="actions">
-      <a class="btn" href="companies/tiffany/index.html" target="_blank">▶ Open live clone (test it)</a>
-      <a class="lnk" href="companies/tiffany/README.md" target="_blank">design notes</a>
-    </div>
+<div class="card blocked">
+    <div class="head"><b>tiffany</b><span class="tag warn">blocked</span></div>
+    <div class="blockbox">🛡️ Blocked by the site's bot protection (Akamai/Cloudflare).<br>Can't snapshot from a server. Design tokens were still extracted.</div>
+    <div class="actions"><a class="lnk" href="companies/tiffany/design-tokens.json" target="_blank">view extracted tokens</a></div>
   </div></div>
 </body></html>
