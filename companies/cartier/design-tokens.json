@@ -1,0 +1,54 @@
+{
+  "brand": "cartier",
+  "source": "https://www.cartier.com/en-us/",
+  "scrapedAt": "2026-06-03T02:26:21.047Z",
+  "tech": [],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#000000",
+    "accent": "#1151ff",
+    "textColors": [
+      "#000000"
+    ],
+    "bgColors": []
+  },
+  "typography": {
+    "primaryFont": "Times New Roman",
+    "fontStack": "\"Times New Roman\"",
+    "sizes": [
+      "16px",
+      "32px"
+    ],
+    "h1": {
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "fontFamily": "\"Times New Roman\"",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "#000000",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "fontFamily": "\"Times New Roman\"",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "textTransform": "none"
+      }
+    }
+  },
+  "shape": {
+    "radii": [],
+    "buttonRadius": "0px"
+  },
+  "button": {},
+  "hoverBehaviour": null,
+  "hasTransitions": false,
+  "fontFiles": [],
+  "heroImage": "",
+  "ogTitle": null,
+  "title": "Access Denied"
+}

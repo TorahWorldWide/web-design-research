@@ -1,0 +1,126 @@
+{
+  "brand": "pandora",
+  "source": "https://us.pandora.net",
+  "scrapedAt": "2026-06-03T02:27:38.524Z",
+  "tech": [
+    "React"
+  ],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#211710",
+    "accent": "#71706c",
+    "textColors": [
+      "#211710",
+      "#ffffff",
+      "#71706c",
+      "#27251f",
+      "#000000",
+      "#696969"
+    ],
+    "bgColors": [
+      "#ffffff",
+      "#211710",
+      "#ff93a0",
+      "#f4f7fa",
+      "#f6f9fc",
+      "#ffcad4"
+    ]
+  },
+  "typography": {
+    "primaryFont": "GothamSSm-Book, Arial, sans-serif",
+    "fontStack": "GothamSSm-Book, Arial, sans-serif",
+    "sizes": [
+      "16px",
+      "11px",
+      "12px",
+      "20px",
+      "13px",
+      "14px",
+      "13.12px",
+      "40px",
+      "14.4px"
+    ],
+    "h1": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GothamSSm-Book",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "#ffffff",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "GothamSSm-Book",
+        "lineHeight": "26px",
+        "letterSpacing": "normal",
+        "color": "#ffffff",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "fontFamily": "GothamSSm-Medium",
+        "lineHeight": "58px",
+        "letterSpacing": "normal",
+        "color": "#ffffff",
+        "textTransform": "uppercase"
+      }
+    }
+  },
+  "shape": {
+    "radii": [
+      "9999px",
+      "4px",
+      "2px",
+      "6px"
+    ],
+    "buttonRadius": "0px"
+  },
+  "button": {
+    "text": "",
+    "bg": null,
+    "color": "#ffffff",
+    "fontSize": "11px",
+    "fontWeight": "400",
+    "fontFamily": "GothamSSm-Book",
+    "padding": "0px",
+    "borderRadius": "0px",
+    "border": "0px solid rgb(226, 232, 240)",
+    "textTransform": "uppercase",
+    "letterSpacing": "0.6px",
+    "boxShadow": "none",
+    "transition": "background-color 0.2s, border-color 0.2s, color 0.2s, fill 0.2s, stroke 0.2s, opacity 0.2s, box-shadow 0.2s, transform 0.2s",
+    "cursor": "pointer"
+  },
+  "hoverBehaviour": {
+    "idx": 1,
+    "transition": "background-color 0.2s, border-color 0.2s, color 0.2s, fill 0.2s, stroke 0.2s, opacity 0.2s, box-shadow 0.2s, transform 0.2s",
+    "changed": {
+      "color": {
+        "from": "rgb(33, 23, 16)",
+        "to": "rgb(117, 117, 117)"
+      }
+    }
+  },
+  "hasTransitions": true,
+  "fontFiles": [
+    "GothamSSm-Book :: /mobify/bundle/2174/static/fonts/GothamSSm-Book.woff2?app=content",
+    "GothamSSm-Book :: /mobify/bundle/2174/static/fonts/GothamSSm-Book.otf?app=content",
+    "GothamSSm-BookItalic :: /mobify/bundle/2174/static/fonts/GothamSSm-BookItalic.woff2?app=content",
+    "GothamSSm-BookItalic :: /mobify/bundle/2174/static/fonts/GothamSSm-BookItalic.otf?app=content",
+    "GothamSSm-Light :: /mobify/bundle/2174/static/fonts/GothamSSm-Light.woff2?app=content",
+    "GothamSSm-Light :: /mobify/bundle/2174/static/fonts/GothamSSm-Light.otf?app=content",
+    "GothamSSm-LightItalic :: /mobify/bundle/2174/static/fonts/GothamSSm-LightItalic.woff2?app=content",
+    "GothamSSm-LightItalic :: /mobify/bundle/2174/static/fonts/GothamSSm-LightItalic.otf?app=content",
+    "GothamSSm-Medium :: /mobify/bundle/2174/static/fonts/GothamSSm-Medium.woff2?app=content",
+    "GothamSSm-Medium :: /mobify/bundle/2174/static/fonts/GothamSSm-Medium.otf?app=content",
+    "GothamSSm-MediumItalic :: /mobify/bundle/2174/static/fonts/GothamSSm-MediumItalic.woff2?app=content",
+    "GothamSSm-MediumItalic :: /mobify/bundle/2174/static/fonts/GothamSSm-MediumItalic.otf?app=content"
+  ],
+  "heroImage": "https://cdn.media.amplience.net/v/pandora/2026Q2D_platform_summer_con_be_ocean_motion_film01_10s_3x4_Gemini?w=auto&fmt=auto&qlt=80",
+  "ogTitle": null,
+  "title": "Official Pandora™ US | Handcrafted Jewelry"
+}

@@ -1,0 +1,13 @@
+# Batch 2 — remaining 12 sites. Format: slug|url
+tiffany|https://www.tiffany.com
+cartier|https://www.cartier.com/en-us/
+pandora|https://us.pandora.net
+davidyurman|https://www.davidyurman.com
+rolex|https://www.rolex.com
+applestore|https://www.apple.com/store
+glossier|https://www.glossier.com
+shopify|https://www.shopify.com
+cocacola|https://www.coca-cola.com/us/en
+starbucks|https://www.starbucks.com
+airbnb|https://www.airbnb.com
+duolingo|https://www.duolingo.com

@@ -1,0 +1,121 @@
+{
+  "brand": "airbnb",
+  "source": "https://www.airbnb.com",
+  "scrapedAt": "2026-06-03T02:33:04.058Z",
+  "tech": [
+    "React"
+  ],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#222222",
+    "accent": "#6a6a6a",
+    "textColors": [
+      "#222222",
+      "#6a6a6a",
+      "#c1c1c1",
+      "#ffffff",
+      "#ff385c",
+      "#000000"
+    ],
+    "bgColors": [
+      "#dddddd",
+      "#f2f2f2",
+      "#ffffff",
+      "#b0b0b0",
+      "#222222",
+      "#ebebeb"
+    ]
+  },
+  "typography": {
+    "primaryFont": "Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+    "fontStack": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+    "sizes": [
+      "14px",
+      "12px",
+      "16px",
+      "13px",
+      "8px",
+      "11px",
+      "20px",
+      "28px"
+    ],
+    "h1": {
+      "fontSize": "28px",
+      "fontWeight": "700",
+      "fontFamily": "\"Airbnb Cereal VF\"",
+      "lineHeight": "40.04px",
+      "letterSpacing": "normal",
+      "color": "#222222",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "fontFamily": "\"Airbnb Cereal VF\"",
+        "lineHeight": "40.04px",
+        "letterSpacing": "normal",
+        "color": "#222222",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "\"Airbnb Cereal VF\"",
+        "lineHeight": "20.02px",
+        "letterSpacing": "normal",
+        "color": "#222222",
+        "textTransform": "none"
+      }
+    }
+  },
+  "shape": {
+    "radii": [
+      "20px",
+      "50%",
+      "9px",
+      "14px"
+    ],
+    "buttonRadius": "50%"
+  },
+  "button": {
+    "text": "",
+    "bg": "#f2f2f2",
+    "color": "#222222",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "\"Airbnb Cereal VF\"",
+    "padding": "0px",
+    "borderRadius": "50%",
+    "border": "0px none rgb(34, 34, 34)",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "boxShadow": "none",
+    "transition": "transform 0.25s cubic-bezier(0.2, 0, 0, 1)",
+    "cursor": "pointer"
+  },
+  "hoverBehaviour": {
+    "idx": 1,
+    "transition": "box-shadow 0.2s cubic-bezier(0.2, 0, 0, 1), transform 0.1s cubic-bezier(0.2, 0, 0, 1)",
+    "changed": {
+      "bg": {
+        "from": "rgba(0, 0, 0, 0)",
+        "to": "rgb(247, 247, 247)"
+      }
+    }
+  },
+  "hasTransitions": true,
+  "fontFiles": [
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_W_Wght.8816d9e5c3b6a860636193e36b6ac4e4.woff2",
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_Italics_W_Wght.bd5e0f97cea11e9264b40656a83357ec.woff2",
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_Arabic_W_Wght.6bee4dd7ab27ef998da2f3a25ae61b48.woff2",
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_Cyril_W_Wght.df06d21e3ece5673610c24f0090979ff.woff2",
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_Hebrew_W_Wght.8c6defa083bcccea47d68d872b5a2b0c.woff2",
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_Deva_W_Wght.b498e56f4d652dd9addb81cdafd7e6d8.woff2",
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_ThaiLp_W_Wght.e40f7fff25db11840de609db35118844.woff2",
+    "\"Airbnb Cereal VF\" :: https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_Greek_W_Wght.4eec7b9ea9093264b972a6eb2a7f13b8.woff2"
+  ],
+  "heroImage": "https://a0.muscache.com/im/pictures/fe7217ff-0b24-438d-880d-b94722c75bf5.jpg",
+  "ogTitle": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+  "title": "Airbnb | Vacation rentals, cabins, beach houses, & more"
+}

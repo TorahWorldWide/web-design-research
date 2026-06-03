@@ -1,0 +1,96 @@
+{
+  "brand": "duolingo",
+  "source": "https://www.duolingo.com",
+  "scrapedAt": "2026-06-03T02:34:10.343Z",
+  "tech": [
+    "React"
+  ],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#3c3c3c",
+    "accent": "#777777",
+    "textColors": [
+      "#3c3c3c",
+      "#777777",
+      "#4b4b4b",
+      "#58cc02",
+      "#1cb0f6",
+      "#afafaf"
+    ],
+    "bgColors": [
+      "#ffffff",
+      "#ddf4ff",
+      "#100f3e"
+    ]
+  },
+  "typography": {
+    "primaryFont": "din-round, sans-serif",
+    "fontStack": "din-round, sans-serif",
+    "sizes": [
+      "17px",
+      "15px",
+      "48px",
+      "64px",
+      "14px",
+      "16px",
+      "32px"
+    ],
+    "h1": {
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "fontFamily": "din-round",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "#4b4b4b",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "fontFamily": "din-round",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "#4b4b4b",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "fontFamily": "feather",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "#58cc02",
+        "textTransform": "none"
+      }
+    }
+  },
+  "shape": {
+    "radii": [
+      "12px"
+    ],
+    "buttonRadius": "0px"
+  },
+  "button": {
+    "text": "SITE LANGUAGE: ENGLISH",
+    "bg": null,
+    "color": "#afafaf",
+    "fontSize": "15px",
+    "fontWeight": "700",
+    "fontFamily": "din-round",
+    "padding": "0px",
+    "borderRadius": "0px",
+    "border": "0px none rgb(175, 175, 175)",
+    "textTransform": "uppercase",
+    "letterSpacing": "0.8px",
+    "boxShadow": "none",
+    "transition": "filter 0.2s",
+    "cursor": "pointer"
+  },
+  "hoverBehaviour": null,
+  "hasTransitions": true,
+  "fontFiles": [],
+  "heroImage": "https://www.duolingo.com/images/facebook/duo-08523a2.jpg",
+  "ogTitle": "Learn a language for free",
+  "title": "Duolingo - The world’s most popular way to learn"
+}
