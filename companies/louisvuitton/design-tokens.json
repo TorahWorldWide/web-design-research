@@ -1,0 +1,70 @@
+{
+  "brand": "louisvuitton",
+  "source": "https://us.louisvuitton.com/eng-us/homepage",
+  "scrapedAt": "2026-06-03T02:18:06.507Z",
+  "tech": [],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#000000",
+    "accent": "#ffffff",
+    "textColors": [
+      "#000000",
+      "#ffffff"
+    ],
+    "bgColors": []
+  },
+  "typography": {
+    "primaryFont": "Louis Vuitton Web\", \"Louis Vuitton\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "fontStack": "\"Louis Vuitton Web\", \"Louis Vuitton\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "sizes": [
+      "16px",
+      "24px",
+      "18px"
+    ],
+    "h1": {
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "\"Louis Vuitton Web\"",
+      "lineHeight": "32px",
+      "letterSpacing": "0.4px",
+      "color": "#ffffff",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "24px",
+        "fontWeight": "400",
+        "fontFamily": "\"Louis Vuitton Web\"",
+        "lineHeight": "32px",
+        "letterSpacing": "0.4px",
+        "color": "#ffffff",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "fontFamily": "\"Louis Vuitton Web\"",
+        "lineHeight": "24px",
+        "letterSpacing": "0.4px",
+        "color": "#000000",
+        "textTransform": "none"
+      }
+    }
+  },
+  "shape": {
+    "radii": [],
+    "buttonRadius": "0px"
+  },
+  "button": {},
+  "hoverBehaviour": null,
+  "hasTransitions": false,
+  "fontFiles": [
+    "\"Louis Vuitton Web\" :: //tp.louisvuitton.com/fonts/bin/LouisVuitton-Regular.woff2",
+    "\"Louis Vuitton Web\" :: //tp.louisvuitton.com/fonts/bin/LouisVuitton-Regular.woff",
+    "\"Louis Vuitton Cyrillic\" :: //tp.louisvuitton.com/fonts/bin/LouisVuitton-Cyrillic.woff2",
+    "\"Louis Vuitton Cyrillic\" :: //tp.louisvuitton.com/fonts/bin/LouisVuitton-Cyrillic.woff"
+  ],
+  "heroImage": "https://www.louisvuitton.com/images/is/image/content/dam/lv/editorial-content/maintenance_page/maintenance-page-desktop.jpg?wid=1440",
+  "ogTitle": null,
+  "title": "LOUIS VUITTON"
+}

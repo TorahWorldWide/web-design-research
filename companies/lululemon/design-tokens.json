@@ -1,0 +1,35 @@
+{
+  "brand": "lululemon",
+  "source": "https://shop.lululemon.com",
+  "scrapedAt": "2026-06-03T02:18:43.241Z",
+  "tech": [],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#000000",
+    "accent": "#1151ff",
+    "textColors": [
+      "#000000"
+    ],
+    "bgColors": []
+  },
+  "typography": {
+    "primaryFont": "Times New Roman",
+    "fontStack": "\"Times New Roman\"",
+    "sizes": [
+      "16px"
+    ],
+    "h1": {},
+    "headings": {}
+  },
+  "shape": {
+    "radii": [],
+    "buttonRadius": "0px"
+  },
+  "button": {},
+  "hoverBehaviour": null,
+  "hasTransitions": false,
+  "fontFiles": [],
+  "heroImage": "",
+  "ogTitle": null,
+  "title": ""
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>apple clone — design study</title>
+<style>
+:root{--bg:#ffffff;--text:#1d1d1f;--accent:#e8e8ed;--btnbg:#f5f5f7;--btncolor:#000000;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased}
+.banner{background:var(--text);color:var(--bg);text-align:center;font-size:12px;padding:7px;letter-spacing:.04em;opacity:.92}
+nav{display:flex;align-items:center;justify-content:space-between;padding:18px 40px;border-bottom:1px solid rgba(0,0,0,.08);position:sticky;top:0;background:var(--bg);z-index:10}
+nav .logo{font-weight:800;font-size:22px;letter-spacing:-.02em;text-transform:uppercase}
+nav ul{display:flex;gap:28px;list-style:none}
+nav a{color:var(--text);text-decoration:none;font-size:15px;font-weight:500;position:relative;padding:4px 0;cursor:pointer;transition:opacity .2s}
+nav a::after{content:'';position:absolute;left:0;bottom:-2px;height:2px;width:0;background:var(--text);transition:width .25s ease}
+nav a:hover::after{width:100%}
+.hero{min-height:78vh;background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:64px 40px;color:#fff}
+.hero.plain{background:var(--bg);color:var(--text);align-items:center;justify-content:center;text-align:center;border-bottom:1px solid rgba(0,0,0,.06)}
+.hero-inner{max-width:640px}
+.hero h1{font-size:34px;font-weight:600;line-height:1.02;letter-spacing:-.02em;text-transform:none;margin-bottom:16px}
+.hero p{font-size:18px;opacity:.92;margin-bottom:26px;font-weight:400}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.btn{font-family:inherit;font-size:14px;font-weight:400;padding:8px 15px;border-radius:8px;border:2px solid transparent;cursor:pointer;text-transform:none;letter-spacing:-0.224px;transition:all;will-change:transform}
+.btn.primary{background:var(--btnbg);color:var(--btncolor)}
+.btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.8)}
+.hero.plain .btn.ghost{color:var(--text);border-color:var(--text)}
+.btn.primary:hover{background:#ffffff;}
+.btn.ghost:hover{background:#fff;color:#111;transform:translateY(-2px)}
+.btn:active{transform:translateY(1px) scale(.98)}
+.section{padding:72px 40px;max-width:1200px;margin:0 auto}
+.section h2{font-size:34px;font-weight:600;letter-spacing:-.02em;margin-bottom:8px}
+.section .sub{color:#000000;margin-bottom:32px;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:22px}
+.card{border-radius:980px;overflow:hidden;background:#000000;cursor:pointer;transition:transform .3s cubic-bezier(.2,.8,.2,1),box-shadow .3s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 14px 34px rgba(0,0,0,.14)}
+.card .ph{aspect-ratio:1/1;background:linear-gradient(135deg,#000000,#1d1d1f);display:flex;align-items:center;justify-content:center;font-size:13px;color:#999;overflow:hidden}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.card:hover img{transform:scale(1.06)}
+.card .meta{padding:16px}
+.card .meta b{display:block;font-size:15px;margin-bottom:4px}
+.card .meta span{color:#000000;font-size:14px}
+.swatches{display:flex;gap:0;flex-wrap:wrap;margin-top:10px}
+.sw{width:90px;height:90px;display:flex;align-items:flex-end;padding:6px;font-size:10px;color:#fff;mix-blend-mode:difference}
+footer{background:var(--text);color:var(--bg);padding:48px 40px;margin-top:40px;font-size:14px}
+@media(max-width:700px){nav ul{display:none}.hero h1{font-size:clamp(40px,12vw,34px)}.section{padding:48px 22px}}
+</style></head>
+<body>
+<div class="banner">DESIGN STUDY CLONE · APPLE · not affiliated · built from extracted tokens</div>
+<nav><div class="logo">apple</div><ul><li><a>New</a></li><li><a>Men</a></li><li><a>Women</a></li><li><a>Collections</a></li><li><a>Sale</a></li></ul><button class="btn primary" style="padding:8px 20px">Sign In</button></nav>
+<section class="hero" style="background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.35)),url('https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202604211141')"><div class="hero-inner"><h1>Apple</h1><p>Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac,</p><div class="cta"><button class="btn primary">Shop Now</button><button class="btn ghost">Learn More</button></div></div></section>
+<section class="section">
+  <h2>Featured</h2>
+  <div class="sub">Hover the cards and buttons. They should move/animate like apple.</div>
+  <div class="grid">
+    <div class="card"><div class="ph"><img src="https://www.apple.com/v/home/images/wwdc26-announce/a/hero_wwdc_teaser__d056yx2exuaa_largetall.jpg" alt="" loading="lazy" onerror="this.parentNode.textContent='image'"></div><div class="meta"><b>WWDC26 Apple logo</b><span>Tap to explore</span></div></div>
+    <div class="card"><div class="ph"><img src="https://www.apple.com/v/home/images/iphone-17-pro/a/hero_iphone_17_pro__dbaaq3mt8u2q_largetall.jpg" alt="" loading="lazy" onerror="this.parentNode.textContent='image'"></div><div class="meta"><b>iPhone 17 Pro in cosmic </b><span>Tap to explore</span></div></div>
+    <div class="card"><div class="ph"><img src="https://www.apple.com/v/home/images/iphone-17/a/hero_iphone_17__ekga3xh1n5aq_largetall.jpg" alt="" loading="lazy" onerror="this.parentNode.textContent='image'"></div><div class="meta"><b>iPhone 17 in all 5 finis</b><span>Tap to explore</span></div></div>
+  </div>
+</section>
+<section class="section">
+  <h2>Brand palette</h2>
+  <div class="sub">The exact colors extracted from the live site.</div>
+  <div class="swatches">
+    <div class="sw" style="background:#ffffff">#ffffff</div><div class="sw" style="background:#1d1d1f">#1d1d1f</div><div class="sw" style="background:#e8e8ed">#e8e8ed</div><div class="sw" style="background:#000000">#000000</div><div class="sw" style="background:#2997ff">#2997ff</div><div class="sw" style="background:#86868b">#86868b</div><div class="sw" style="background:#f5f5f7">#f5f5f7</div><div class="sw" style="background:#0071e3">#0071e3</div><div class="sw" style="background:#161617">#161617</div>
+  </div>
+</section>
+<footer><b style="font-size:20px;text-transform:uppercase">apple</b><p style="margin-top:10px;opacity:.7">Design-study clone for training. Source: https://www.apple.com</p></footer>
+<script>
+// subtle press feedback already via CSS; add ripple-free click log so Tomer sees interactivity
+document.querySelectorAll('.btn,.card,nav a').forEach(el=>{el.addEventListener('click',e=>{el.animate([{transform:'scale(.97)'},{transform:'scale(1)'}],{duration:160,easing:'ease-out'})})});
+</script>
+</body></html>

@@ -1,0 +1,146 @@
+{
+  "brand": "nike",
+  "source": "https://www.nike.com",
+  "scrapedAt": "2026-06-03T02:09:16.377Z",
+  "tech": [
+    "Next.js / React",
+    "React"
+  ],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#111111",
+    "accent": "#707072",
+    "textColors": [
+      "#111111",
+      "#707072",
+      "#ffffff",
+      "#9e9ea0",
+      "#000000"
+    ],
+    "bgColors": [
+      "#ffffff",
+      "#f5f5f5",
+      "#e5e5e5",
+      "#111111"
+    ]
+  },
+  "typography": {
+    "primaryFont": "Helvetica Now Text Medium\", Helvetica, Arial, sans-serif",
+    "fontStack": "\"Helvetica Now Text Medium\", Helvetica, Arial, sans-serif",
+    "sizes": [
+      "16px",
+      "12px",
+      "14px",
+      "76px",
+      "24px",
+      "20px",
+      "22.4px",
+      "9px"
+    ],
+    "h1": {
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "\"Helvetica Now Display Medium\"",
+      "lineHeight": "28.8px",
+      "letterSpacing": "normal",
+      "color": "#ffffff",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "fontFamily": "\"Helvetica Now Display Medium\"",
+        "lineHeight": "28.8px",
+        "letterSpacing": "normal",
+        "color": "#ffffff",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "fontFamily": "\"Helvetica Now Display Medium\"",
+        "lineHeight": "28.8px",
+        "letterSpacing": "normal",
+        "color": "#111111",
+        "textTransform": "none"
+      },
+      "h3": {
+        "fontSize": "76px",
+        "fontWeight": "500",
+        "fontFamily": "\"Nike Futura ND\"",
+        "lineHeight": "68.4px",
+        "letterSpacing": "normal",
+        "color": "#ffffff",
+        "textTransform": "uppercase"
+      }
+    }
+  },
+  "shape": {
+    "radii": [
+      "30px",
+      "24px",
+      "50%",
+      "0px 0px 8px 8px"
+    ],
+    "buttonRadius": "30px"
+  },
+  "button": {
+    "text": "",
+    "bg": "#f5f5f5",
+    "color": "#111111",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "\"Helvetica Now Text Medium\"",
+    "padding": "6px",
+    "borderRadius": "30px",
+    "border": "0px none rgba(0, 0, 0, 0)",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "boxShadow": "none",
+    "transition": "all",
+    "cursor": "pointer"
+  },
+  "hoverBehaviour": null,
+  "hasTransitions": true,
+  "fontFiles": [
+    "nike-glyphs :: ../fonts/nike-glyphs.woff",
+    "nike-glyphs :: ../fonts/nike-glyphs.ttf",
+    "\"Nike TG\" :: ../../fonts/Nike-TG.woff2",
+    "\"Nike TG\" :: ../../fonts/Nike-TG.woff",
+    "\"Nike TG\" :: ../../fonts/Nike-TG.ttf",
+    "\"Nike Futura ND\" :: ../../fonts/Nike-Futura-ot-300.woff2",
+    "\"Nike Futura ND\" :: ../../fonts/Nike-Futura-ot-300.woff",
+    "\"Nike Futura ND\" :: ../../fonts/Nike-Futura-ot-300.ttf",
+    "\"Nike Futura\" :: ../../fonts/Nike-Futura.woff2",
+    "\"Nike Futura\" :: ../../fonts/Nike-Futura.woff",
+    "\"Nike Futura\" :: ../../fonts/Nike-Futura.ttf",
+    "\"Helvetica Now Text\" :: ../../fonts/HelveticaNowText.woff2",
+    "\"Helvetica Now Text\" :: ../../fonts/HelveticaNowText.woff",
+    "\"Helvetica Now Text\" :: ../../fonts/HelveticaNowText.ttf",
+    "\"Helvetica Now Text Medium\" :: ../../fonts/HelveticaNowTextMedium.woff2",
+    "\"Helvetica Now Text Medium\" :: ../../fonts/HelveticaNowTextMedium.woff",
+    "\"Helvetica Now Text Medium\" :: ../../fonts/HelveticaNowTextMedium.ttf",
+    "\"Helvetica Now Display Medium\" :: ../../fonts/HelveticaNowDisplayMedium.woff2",
+    "\"Helvetica Now Display Medium\" :: ../../fonts/HelveticaNowDisplayMedium.woff",
+    "\"Helvetica Now Display Medium\" :: ../../fonts/HelveticaNowDisplayMedium.ttf",
+    "\"Palatino LT Pro Light\" :: ../../fonts/PalatinoLTPro-Light.woff2",
+    "\"Palatino LT Pro Light\" :: ../../fonts/PalatinoLTPro-Light.woff",
+    "\"Palatino LT Pro Light\" :: ../../fonts/PalatinoLTPro-Light.ttf",
+    "\"Helvetica Now Text\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowTextNDL.woff2",
+    "\"Helvetica Now Text\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowTextNDL.woff",
+    "\"Helvetica Now Text Medium\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowTextNDL-Md.woff2",
+    "\"Helvetica Now Text Medium\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowTextNDL-Md.woff",
+    "\"Helvetica Now Display Bold\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowDispNDL-Bold.woff2",
+    "\"Helvetica Now Display Bold\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowDispNDL-Bold.woff",
+    "\"Helvetica Now Display XBold\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowDispNDL-XBd.woff2",
+    "\"Helvetica Now Display XBold\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/HelveticaNowDispNDL-XBd.woff",
+    "\"Nike Futura ND\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/Nike-Futura-ND-L-CnXBd.woff2",
+    "\"Nike Futura ND\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/Nike-Futura-ND-L-CnXBd.woff",
+    "\"Palatino LT Pro Light\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/PalatinoNDL-Light.woff2",
+    "\"Palatino LT Pro Light\" :: https://www.nike.com/static/ncss/nike-design-system-fonts/dotcom/fonts/PalatinoNDL-Light.woff"
+  ],
+  "heroImage": "https://c.static-nike.com/a/images/w_1920,c_limit/mdbgldn6yg1gg88jomci/image.jpg",
+  "ogTitle": "Nike. Just Do It",
+  "title": "Nike. Just Do It. Nike IL"
+}

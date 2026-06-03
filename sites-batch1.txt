@@ -1,0 +1,14 @@
+# Batch 1 — first 13 sites. Format: slug|url
+chatgpt|https://openai.com
+claude|https://claude.com
+notion|https://www.notion.com
+figma|https://www.figma.com
+apple|https://www.apple.com
+spotify|https://www.spotify.com
+nike|https://www.nike.com
+adidas|https://www.adidas.com/us
+gucci|https://www.gucci.com/us/en/
+louisvuitton|https://us.louisvuitton.com/eng-us/homepage
+balenciaga|https://www.balenciaga.com/en-us
+lululemon|https://shop.lululemon.com
+nordstrom|https://www.nordstrom.com

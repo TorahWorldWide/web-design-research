@@ -1,0 +1,6 @@
+companies/*/raw/
+companies/*/screenshot-desktop-full.png
+node_modules/
+*.log
+*.tmp
+smoke.js

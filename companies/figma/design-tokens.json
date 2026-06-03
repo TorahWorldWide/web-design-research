@@ -1,0 +1,130 @@
+{
+  "brand": "figma",
+  "source": "https://www.figma.com",
+  "scrapedAt": "2026-06-03T02:14:54.076Z",
+  "tech": [
+    "Next.js / React",
+    "React",
+    "Framer"
+  ],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#000000",
+    "accent": "#33dfdf",
+    "textColors": [
+      "#000000",
+      "#ffffff",
+      "#33dfdf",
+      "#b98e01"
+    ],
+    "bgColors": [
+      "#ffffff",
+      "#000000",
+      "#e6e6e6",
+      "#4d49fc",
+      "#f3ffe3",
+      "#e2e2e2"
+    ]
+  },
+  "typography": {
+    "primaryFont": "figmaSans, \"figmaSans Fallback\", \"SF Pro Display\", system-ui, helvetica, sans-serif",
+    "fontStack": "figmaSans, \"figmaSans Fallback\", \"SF Pro Display\", system-ui, helvetica, sans-serif",
+    "sizes": [
+      "18px",
+      "16px",
+      "24px",
+      "56px",
+      "72px",
+      "12px"
+    ],
+    "h1": {
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "fontFamily": "figmaSans",
+      "lineHeight": "72px",
+      "letterSpacing": "-1.44px",
+      "color": "#000000",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "72px",
+        "fontWeight": "400",
+        "fontFamily": "figmaSans",
+        "lineHeight": "72px",
+        "letterSpacing": "-1.44px",
+        "color": "#000000",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "figmaMono",
+        "lineHeight": "20.8px",
+        "letterSpacing": "0.48px",
+        "color": "#697485",
+        "textTransform": "uppercase"
+      },
+      "h3": {
+        "fontSize": "24px",
+        "fontWeight": "520",
+        "fontFamily": "figmaSans",
+        "lineHeight": "32.4px",
+        "letterSpacing": "-0.24px",
+        "color": "#000000",
+        "textTransform": "none"
+      }
+    }
+  },
+  "shape": {
+    "radii": [
+      "50%",
+      "50px",
+      "2px",
+      "8px"
+    ],
+    "buttonRadius": "50%"
+  },
+  "button": {
+    "text": "",
+    "bg": "#000000",
+    "color": "#000000",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "figmaSans",
+    "padding": "0px",
+    "borderRadius": "50%",
+    "border": "0px none rgb(0, 0, 0)",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "boxShadow": "none",
+    "transition": "all",
+    "cursor": "pointer"
+  },
+  "hoverBehaviour": {
+    "idx": 5,
+    "transition": "all",
+    "changed": {
+      "bg": {
+        "from": "rgba(0, 0, 0, 0.08)",
+        "to": "rgb(0, 0, 0)"
+      },
+      "color": {
+        "from": "rgb(0, 0, 0)",
+        "to": "rgb(255, 255, 255)"
+      },
+      "borderColor": {
+        "from": "rgb(0, 0, 0)",
+        "to": "rgb(255, 255, 255)"
+      }
+    }
+  },
+  "hasTransitions": true,
+  "fontFiles": [
+    "figmaSans :: /_netlify/_next/static/media/7c42ed55a7834032-s.p.woff2",
+    "figmaMono :: /_netlify/_next/static/media/7c42ed55a7834032-s.p.woff2"
+  ],
+  "heroImage": "https://cdn.sanity.io/images/599r6htc/regionalized/342e17642c7afa81206490b0dd21c3e5724ae040-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+  "ogTitle": "Figma: The Collaborative Interface Design Tool",
+  "title": "Figma: The Collaborative Interface Design Tool"
+}

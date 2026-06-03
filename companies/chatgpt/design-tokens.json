@@ -1,0 +1,121 @@
+{
+  "brand": "chatgpt",
+  "source": "https://openai.com",
+  "scrapedAt": "2026-06-03T02:13:02.556Z",
+  "tech": [
+    "Next.js / React",
+    "React"
+  ],
+  "palette": {
+    "pageBg": "#ffffff",
+    "primaryText": "#000000",
+    "accent": "#ffffff",
+    "textColors": [
+      "#000000",
+      "#ffffff"
+    ],
+    "bgColors": [
+      "#000000",
+      "#ffffff",
+      "#f1f1f1"
+    ]
+  },
+  "typography": {
+    "primaryFont": "OpenAI Sans\", sans-serif",
+    "fontStack": "\"OpenAI Sans\", sans-serif",
+    "sizes": [
+      "17px",
+      "13px",
+      "14px",
+      "16px",
+      "18px",
+      "22px",
+      "48px",
+      "28px"
+    ],
+    "h1": {},
+    "headings": {
+      "h2": {
+        "fontSize": "22px",
+        "fontWeight": "500",
+        "fontFamily": "\"OpenAI Sans\"",
+        "lineHeight": "27.72px",
+        "letterSpacing": "-0.22px",
+        "color": "#000000",
+        "textTransform": "none"
+      }
+    }
+  },
+  "shape": {
+    "radii": [
+      "6.08px",
+      "9999px",
+      "40px",
+      "4px"
+    ],
+    "buttonRadius": "0px"
+  },
+  "button": {
+    "text": "",
+    "bg": null,
+    "color": "#000000",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "fontFamily": "\"OpenAI Sans\"",
+    "padding": "0px",
+    "borderRadius": "0px",
+    "border": "0px solid rgb(229, 231, 235)",
+    "textTransform": "none",
+    "letterSpacing": "-0.17px",
+    "boxShadow": "none",
+    "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+    "cursor": "pointer"
+  },
+  "hoverBehaviour": null,
+  "hasTransitions": true,
+  "fontFiles": [
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Regular.woff2",
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-RegularItalic.woff2",
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Medium.woff2",
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-MediumItalic.woff2",
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Semibold.woff2",
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-SemiboldItalic.woff2",
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Bold.woff2",
+    "\"OpenAI Sans\" :: https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-BoldItalic.woff2",
+    "\"LF Serif\" :: https://cdn.openai.com/common/fonts/lf-serif/lf-serif-s-400.woff2",
+    "\"LF Serif\" :: https://cdn.openai.com/common/fonts/lf-serif/lf-serif-s-400-italic.woff2",
+    "KaTeX_AMS :: ../media/KaTeX_AMS-Regular.0p1vbqd84i2~o.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_AMS :: ../media/KaTeX_AMS-Regular.0b~8ki5y928w2.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_AMS :: ../media/KaTeX_AMS-Regular.173t6ktr7uf-w.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Caligraphic :: ../media/KaTeX_Caligraphic-Bold.01-pzluls4zgb.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Caligraphic :: ../media/KaTeX_Caligraphic-Bold.0x2v1lwn~880f.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Caligraphic :: ../media/KaTeX_Caligraphic-Bold.16zv5fax0h0ka.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Caligraphic :: ../media/KaTeX_Caligraphic-Regular.0rysu1t-ncjq8.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Caligraphic :: ../media/KaTeX_Caligraphic-Regular.10927swgekwun.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Caligraphic :: ../media/KaTeX_Caligraphic-Regular.02i3z7wig438t.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Fraktur :: ../media/KaTeX_Fraktur-Bold.0w23i72~hprpq.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Fraktur :: ../media/KaTeX_Fraktur-Bold.0e-16u10iuyyf.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Fraktur :: ../media/KaTeX_Fraktur-Bold.0et27v~3~4uhe.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Fraktur :: ../media/KaTeX_Fraktur-Regular.0rekyoa-52fj_.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Fraktur :: ../media/KaTeX_Fraktur-Regular.0b.riegzdfue2.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Fraktur :: ../media/KaTeX_Fraktur-Regular.0vjwa15znhk~4.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Bold.16pfc63_du6mx.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Bold.09lmynrorhcbw.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Bold.09i7~607shf-h.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-BoldItalic.0d54rk08rx11s.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-BoldItalic.0cp37g7x1q8h6.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-BoldItalic.15j6k~hix2t_0.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Italic.06o5nq0_91v60.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Italic.0382gqciexmbu.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Italic.0su4i6mm18-wo.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Regular.0kaf-ag2_wkm-.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Regular.0diheg01zyoph.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Main :: ../media/KaTeX_Main-Regular.08zh8z.7shijf.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Math :: ../media/KaTeX_Math-BoldItalic.0ja97dn.cpc87.woff2?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Math :: ../media/KaTeX_Math-BoldItalic.0ck1myuerwyqw.woff?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4",
+    "KaTeX_Math :: ../media/KaTeX_Math-BoldItalic.0ajzxypnbx1h1.ttf?dpl=dpl_42ntZWC2sLnjyaaARzxsDQvknUu4"
+  ],
+  "heroImage": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/cdb0e2f899f524abb71314ab20e09c9c/OAI-white-on-black.png?w=1600&h=900&fit=fill",
+  "ogTitle": "OpenAI | Research & Deployment",
+  "title": "OpenAI | Research & Deployment"
+}

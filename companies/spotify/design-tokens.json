@@ -1,0 +1,124 @@
+{
+  "brand": "spotify",
+  "source": "https://www.spotify.com",
+  "scrapedAt": "2026-06-03T02:15:36.605Z",
+  "tech": [
+    "React"
+  ],
+  "palette": {
+    "pageBg": "#1ed760",
+    "primaryText": "#b3b3b3",
+    "accent": "#7c7c7c",
+    "textColors": [
+      "#ffffff",
+      "#b3b3b3",
+      "#000000",
+      "#7c7c7c",
+      "#121212",
+      "#0000ee"
+    ],
+    "bgColors": [
+      "#1ed760",
+      "#ffffff",
+      "#1f1f1f",
+      "#333333",
+      "#121212",
+      "#000000"
+    ]
+  },
+  "typography": {
+    "primaryFont": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic",
+    "fontStack": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\"",
+    "sizes": [
+      "16px",
+      "13.3333px",
+      "14px",
+      "12px",
+      "24px",
+      "10.5px",
+      "14.4px"
+    ],
+    "h1": {
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "SpotifyMixUI",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "#ffffff",
+      "textTransform": "none"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "fontFamily": "SpotifyMixUI",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "#ffffff",
+        "textTransform": "none"
+      },
+      "h2": {
+        "fontSize": "24px",
+        "fontWeight": "700",
+        "fontFamily": "SpotifyMixUITitle",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "#ffffff",
+        "textTransform": "none"
+      },
+      "h3": {
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "fontFamily": "SpotifyMixUI",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "#ffffff",
+        "textTransform": "none"
+      }
+    }
+  },
+  "shape": {
+    "radii": [
+      "6px",
+      "9999px",
+      "500px",
+      "50%"
+    ],
+    "buttonRadius": "50%"
+  },
+  "button": {
+    "text": "",
+    "bg": "#1f1f1f",
+    "color": "#ffffff",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "SpotifyMixUI",
+    "padding": "12px",
+    "borderRadius": "50%",
+    "border": "0px none rgb(255, 255, 255)",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "boxShadow": "none",
+    "transition": "background-color 0.2s ease-in-out, color 0.2s ease-in-out",
+    "cursor": "pointer"
+  },
+  "hoverBehaviour": {
+    "idx": 0,
+    "transition": "background-color 0.2s ease-in-out, color 0.2s ease-in-out",
+    "changed": {
+      "bg": {
+        "from": "rgb(31, 31, 31)",
+        "to": "rgb(42, 42, 42)"
+      },
+      "transform": {
+        "from": "none",
+        "to": "matrix(1.04, 0, 0, 1.04, 0, 0)"
+      }
+    }
+  },
+  "hasTransitions": true,
+  "fontFiles": [],
+  "heroImage": "",
+  "ogTitle": null,
+  "title": "Spotify - Web Player: Music for everyone"
+}
