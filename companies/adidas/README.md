@@ -1,35 +1,23 @@
-# adidas — Design DNA
+# adidas — Design DNA (sport)
 
-> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone, click & hover the buttons, confirm it behaves like the real site.
+> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone and check it feels like the category.
+> **NOTE:** live capture was BLOCKED by bot protection, so this clone is an *archetype reconstruction* from the brand's category, not extracted tokens.
 
 **Source:** https://www.adidas.com/us
+**Category:** sport
 **Captured:** 2026-06-03T02:17:44.209Z
-**Tech stack:** unknown
+**Capture quality:** 🛡️ blocked — archetype reconstruction
 
-## Palette (real, from rendered DOM)
+## Resolved tokens
 - Page background: `#ffffff`
-- Primary text: `#000000`
-- Accent: `#1151ff`
-- Top text colors: `#000000`
-- Top backgrounds: 
-
-## Typography
-- Primary font: **Times New Roman**
-- Full stack: `"Times New Roman"`
-- Size scale: `16px`
-- H1: ? / weight ? / 
-- Font files: n/a
-
-## Shape & components
-- Border radii used: `0px` (sharp)
-- Primary button: bg `?`, text `?`, radius `?`, padding `?`, transform `none`
-- Transitions present: no
-
-## Hover behaviour (the "it must feel the same" part)
-- No hover delta captured (button may animate via transform/JS).
+- Primary text: `#141414` (contrast-checked against bg)
+- Accent: `#111111`
+- Font stack: `"Helvetica Neue",Helvetica,Arial,"Arial Narrow",sans-serif`
+- Button radius: `30px`
+- Nav: Men · Women · Kids · Sale
+- CTAs: Shop / Explore
 
 ## Files
 - `design-tokens.json` — structured tokens (the trainable artifact)
-- `index.html` — interactive clone (open in browser, test it)
-- `screenshot-desktop.png` — what the real site looked like when captured
-- `raw/` — original HTML + CSS for deep reference
+- `index.html` — category-aware design-study clone
+- `screenshot-desktop.png` — what the real site looked like (when capture succeeded)

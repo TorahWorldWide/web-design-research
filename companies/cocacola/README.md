@@ -1,35 +1,23 @@
-# cocacola — Design DNA
+# cocacola — Design DNA (consumer)
 
-> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone, click & hover the buttons, confirm it behaves like the real site.
+> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone and check it feels like the category.
+
 
 **Source:** https://www.coca-cola.com/us/en
+**Category:** consumer
 **Captured:** 2026-06-03T02:31:35.473Z
-**Tech stack:** unknown
+**Capture quality:** ✅ extracted from live DOM
 
-## Palette (real, from rendered DOM)
+## Resolved tokens
 - Page background: `#eeeeee`
-- Primary text: `#000000`
-- Accent: `#d5d5d5`
-- Top text colors: `#000000` `#ffffff` `#d5d5d5` `#555555` `#808080` `#333333`
-- Top backgrounds: `#ffffff` `#000000` `#6c6c6c` `#eeeeee`
-
-## Typography
-- Primary font: **Noto-regional, Noto-latin, TCCC-UnityText, sans-serif**
-- Full stack: `Noto-regional, Noto-latin, TCCC-UnityText, sans-serif`
-- Size scale: `16px` `14px` `24px` `32px` `14.4px` `12px` `38px` `10px`
-- H1: 38px / weight 700 / Noto-regional
-- Font files: `./FantaPop-Regular.woff2` `./BetterWith-Regular.woff2` `./Aktiv-Grotesk-Regular.woff2`
-
-## Shape & components
-- Border radii used: `8000px` `16px` `2px` `20px`
-- Primary button: bg `?`, text `#000000`, radius `0px`, padding `0px`, transform `none`
-- Transitions present: yes
-
-## Hover behaviour (the "it must feel the same" part)
-- No hover delta captured (button may animate via transform/JS).
+- Primary text: `#000000` (contrast-checked against bg)
+- Accent: `#e2342d`
+- Font stack: `Noto-regional, Noto-latin, TCCC-UnityText, sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif`
+- Button radius: `999px`
+- Nav: Shop · About · Stories · Contact
+- CTAs: Get started / Learn more
 
 ## Files
 - `design-tokens.json` — structured tokens (the trainable artifact)
-- `index.html` — interactive clone (open in browser, test it)
-- `screenshot-desktop.png` — what the real site looked like when captured
-- `raw/` — original HTML + CSS for deep reference
+- `index.html` — category-aware design-study clone
+- `screenshot-desktop.png` — what the real site looked like (when capture succeeded)

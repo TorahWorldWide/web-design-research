@@ -5,19 +5,23 @@
   "tech": [
     "React"
   ],
+  "category": "saas",
+  "capture": "extracted",
   "palette": {
     "pageBg": "#f5f5f7",
     "primaryText": "#1d1d1f",
-    "accent": "#333336",
-    "textColors": [
+    "accent": "#0066cc",
+    "rawTextColors": [
       "#1d1d1f",
       "#000000",
       "#333336",
       "#6e6e73",
       "#ffffff",
-      "#b64400"
+      "#b64400",
+      "#424245",
+      "#0066cc"
     ],
-    "bgColors": [
+    "rawBgColors": [
       "#ffffff",
       "#d2d2d7",
       "#000000",
@@ -27,129 +31,32 @@
     ]
   },
   "typography": {
-    "primaryFont": "SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-    "fontStack": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-    "sizes": [
-      "17px",
-      "12px",
-      "14px",
-      "24px",
-      "28px",
-      "44px",
-      "8.4px",
-      "19.89px",
-      "12.6px",
-      "14.04px"
-    ],
+    "fontStack": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif,system-ui,-apple-system,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif",
+    "rawPrimaryFont": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
     "h1": {
-      "fontSize": "80px",
-      "fontWeight": "600",
-      "fontFamily": "\"SF Pro Display\"",
-      "lineHeight": "84px",
-      "letterSpacing": "-1.2px",
-      "color": "#1d1d1f",
-      "textTransform": "none"
-    },
-    "headings": {
-      "h1": {
-        "fontSize": "80px",
-        "fontWeight": "600",
-        "fontFamily": "\"SF Pro Display\"",
-        "lineHeight": "84px",
-        "letterSpacing": "-1.2px",
-        "color": "#1d1d1f",
-        "textTransform": "none"
-      },
-      "h2": {
-        "fontSize": "12px",
-        "fontWeight": "400",
-        "fontFamily": "\"SF Pro Text\"",
-        "lineHeight": "16.0005px",
-        "letterSpacing": "-0.12px",
-        "color": "#6e6e73",
-        "textTransform": "none"
-      },
-      "h3": {
-        "fontSize": "12px",
-        "fontWeight": "600",
-        "fontFamily": "\"SF Pro Text\"",
-        "lineHeight": "16.0005px",
-        "letterSpacing": "-0.12px",
-        "color": "#b64400",
-        "textTransform": "none"
-      }
+      "size": "60px",
+      "weight": "700"
     }
   },
   "shape": {
-    "radii": [
+    "buttonRadius": "12px",
+    "rawRadii": [
       "18px",
       "56px",
       "5px",
       "980px"
-    ],
-    "buttonRadius": "0px"
+    ]
   },
-  "button": {
-    "text": "",
-    "bg": null,
-    "color": "#1d1d1f",
-    "fontSize": "17px",
-    "fontWeight": "400",
-    "fontFamily": "\"SF Pro Text\"",
-    "padding": "0px",
-    "borderRadius": "0px",
-    "border": "0px none rgb(29, 29, 31)",
-    "textTransform": "none",
-    "letterSpacing": "normal",
-    "boxShadow": "none",
-    "transition": "all",
-    "cursor": "pointer"
-  },
-  "hoverBehaviour": null,
-  "hasTransitions": true,
-  "fontFiles": [
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.ttf",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin-italic.ttf",
-    "\"SF Pro Display 200\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_thin.eot",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.ttf",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_light-italic.ttf",
-    "\"SF Pro Display 300\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_light.eot",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular-italic.ttf",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.ttf",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium-italic.ttf",
-    "\"SF Pro Display 500\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_medium.eot",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.ttf",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold-italic.ttf",
-    "\"SF Pro Display 600\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.eot",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff",
-    "\"SF Pro Display\" :: /wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.ttf",
-    "\"SF Pro Text\" :: /wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff2",
-    "\"SF Pro Text\" :: /wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff",
-    "\"SF Pro Text\" :: /wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.ttf",
-    "\"SF Pro Text\" :: /wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff2",
-    "\"SF Pro Text\" :: /wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff",
-    "\"SF Pro Text\" :: /wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.ttf"
+  "nav": [
+    "Product",
+    "Solutions",
+    "Pricing",
+    "Docs"
   ],
-  "heroImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/og-default?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1525370171638",
-  "ogTitle": "Apple Store Online",
+  "cta": {
+    "primary": "Get started",
+    "ghost": "Sign in"
+  },
+  "ogImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/og-default?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1525370171638",
   "title": "Apple Store Online - Apple"
 }

@@ -1,35 +1,23 @@
-# glossier — Design DNA
+# glossier — Design DNA (consumer)
 
-> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone, click & hover the buttons, confirm it behaves like the real site.
+> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone and check it feels like the category.
+
 
 **Source:** https://www.glossier.com
+**Category:** consumer
 **Captured:** 2026-06-03T02:30:35.937Z
-**Tech stack:** React, Shopify
+**Capture quality:** ✅ extracted from live DOM
 
-## Palette (real, from rendered DOM)
+## Resolved tokens
 - Page background: `#ffffff`
-- Primary text: `#000000`
-- Accent: `#666666`
-- Top text colors: `#000000` `#ffffff` `#666666` `#0600ff`
-- Top backgrounds: `#ffffff` `#f7f7f7` `#000000` `#e8e8e8` `#0600ff` `#464545`
-
-## Typography
-- Primary font: **Apercu, "Gill Sans", sans-serif**
-- Full stack: `Apercu, "Gill Sans", sans-serif`
-- Size scale: `16px` `14px` `12px` `32px` `20px` `130px` `15px`
-- H1: ? / weight ? / 
-- Font files: `//www.glossier.com/cdn/shop/t/1406/assets/Apercu-Light.woff?v=20913981759846774721779309770` `//www.glossier.com/cdn/shop/t/1406/assets/Apercu-Light.woff2?v=115301833236938182451779309770` `//www.glossier.com/cdn/shop/t/1406/assets/Apercu-LightItalic.woff?v=68446011202050247651779309770`
-
-## Shape & components
-- Border radii used: `0px` (sharp)
-- Primary button: bg `#000000`, text `#ffffff`, radius `0px`, padding `0px`, transform `none`
-- Transitions present: yes
-
-## Hover behaviour (the "it must feel the same" part)
-- No hover delta captured (button may animate via transform/JS).
+- Primary text: `#000000` (contrast-checked against bg)
+- Accent: `#0600ff`
+- Font stack: `Apercu, "Gill Sans", sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif`
+- Button radius: `999px`
+- Nav: Shop · About · Stories · Contact
+- CTAs: Get started / Learn more
 
 ## Files
 - `design-tokens.json` — structured tokens (the trainable artifact)
-- `index.html` — interactive clone (open in browser, test it)
-- `screenshot-desktop.png` — what the real site looked like when captured
-- `raw/` — original HTML + CSS for deep reference
+- `index.html` — category-aware design-study clone
+- `screenshot-desktop.png` — what the real site looked like (when capture succeeded)

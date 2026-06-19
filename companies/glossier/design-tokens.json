@@ -6,116 +6,51 @@
     "React",
     "Shopify"
   ],
+  "category": "consumer",
+  "capture": "extracted",
   "palette": {
     "pageBg": "#ffffff",
     "primaryText": "#000000",
-    "accent": "#666666",
-    "textColors": [
+    "accent": "#0600ff",
+    "rawTextColors": [
       "#000000",
       "#ffffff",
       "#666666",
       "#0600ff"
     ],
-    "bgColors": [
+    "rawBgColors": [
       "#ffffff",
       "#f7f7f7",
       "#000000",
       "#e8e8e8",
       "#0600ff",
-      "#464545"
+      "#464545",
+      "#666666",
+      "#f0f0f0"
     ]
   },
   "typography": {
-    "primaryFont": "Apercu, \"Gill Sans\", sans-serif",
-    "fontStack": "Apercu, \"Gill Sans\", sans-serif",
-    "sizes": [
-      "16px",
-      "14px",
-      "12px",
-      "32px",
-      "20px",
-      "130px",
-      "15px"
-    ],
-    "h1": {},
-    "headings": {
-      "h2": {
-        "fontSize": "20px",
-        "fontWeight": "400",
-        "fontFamily": "Apercu",
-        "lineHeight": "28px",
-        "letterSpacing": "normal",
-        "color": "#000000",
-        "textTransform": "none"
-      },
-      "h3": {
-        "fontSize": "14px",
-        "fontWeight": "400",
-        "fontFamily": "Apercu",
-        "lineHeight": "19.6px",
-        "letterSpacing": "normal",
-        "color": "#000000",
-        "textTransform": "none"
-      }
+    "fontStack": "Apercu, \"Gill Sans\", sans-serif,system-ui,-apple-system,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif",
+    "rawPrimaryFont": "Apercu, \"Gill Sans\", sans-serif",
+    "h1": {
+      "size": "60px",
+      "weight": "800"
     }
   },
   "shape": {
-    "radii": [],
-    "buttonRadius": "0px"
+    "buttonRadius": "999px",
+    "rawRadii": []
   },
-  "button": {
-    "text": "Pause Slideshow",
-    "bg": "#000000",
-    "color": "#ffffff",
-    "fontSize": "14px",
-    "fontWeight": "400",
-    "fontFamily": "Apercu",
-    "padding": "0px",
-    "borderRadius": "0px",
-    "border": "0px none rgb(255, 255, 255)",
-    "textTransform": "none",
-    "letterSpacing": "0.03px",
-    "boxShadow": "none",
-    "transition": "all",
-    "cursor": "pointer"
-  },
-  "hoverBehaviour": null,
-  "hasTransitions": true,
-  "fontFiles": [
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Light.woff?v=20913981759846774721779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Light.woff2?v=115301833236938182451779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-LightItalic.woff?v=68446011202050247651779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-LightItalic.woff2?v=29235907510290086151779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu.woff?v=27749520405110232131779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu.woff2?v=75884663832110848261779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Italic.woff?v=167501330633256636311779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Italic.woff2?v=24187841215175375051779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Medium.woff?v=135256279722417433531779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Medium.woff2?v=184125599230595850741779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-MediumItalic.woff?v=166049247236756587401779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-MediumItalic.woff2?v=88237399669711597011779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Bold.woff?v=77441056927343755651779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Bold.woff2?v=123311489613468491241779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-BoldItalic.woff?v=182358319762879638931779309770",
-    "Apercu :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-BoldItalic.woff2?v=21030091884733806711779309770",
-    "\"Apercu Mono\" :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Mono.woff?v=95926578357820724491779309770",
-    "\"Apercu Mono\" :: //www.glossier.com/cdn/shop/t/1406/assets/Apercu-Mono.woff2?v=36497956900394540011779309770",
-    "Apercu :: https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-bold.woff2?v=1652966868",
-    "Apercu :: https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-medium.woff2?v=1679586878",
-    "Apercu :: https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-regular.woff2?v=1652966868",
-    "\"Apercu Pro\" :: https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-bold.woff?v=1679586878",
-    "\"Apercu Pro\" :: https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-medium.woff?v=1679586878",
-    "\"Apercu Pro\" :: https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-regular.woff?v=1679586878",
-    "Kanit-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Kanit/latin/kanit_latin_italic_400.woff2",
-    "Kanit-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Kanit/latin/kanit_latin_italic_700.woff2",
-    "Kanit-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Kanit/latin/kanit_latin_regular_400.woff2",
-    "Kanit-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Kanit/latin/kanit_latin_regular_700.woff2",
-    "Poppins-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Poppins/latin/poppins_latin_italic_400.woff2",
-    "Poppins-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Poppins/latin/poppins_latin_italic_700.woff2",
-    "Poppins-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Poppins/latin/poppins_latin_regular_400_2.woff2",
-    "Poppins-Klaviyo-Hosted :: https://static.klaviyo.com/onsite/hosted-fonts/Poppins/latin/poppins_latin_regular_700.woff2"
+  "nav": [
+    "Shop",
+    "About",
+    "Stories",
+    "Contact"
   ],
-  "heroImage": "https://cdn.shopify.com/s/files/1/0627/9164/7477/files/GL-fragrance-web-popup.jpg?v=1757451095",
-  "ogTitle": "Glossier",
+  "cta": {
+    "primary": "Get started",
+    "ghost": "Learn more"
+  },
+  "ogImage": "https://cdn.shopify.com/s/files/1/0627/9164/7477/files/GL-fragrance-web-popup.jpg?v=1757451095",
   "title": "Glossier"
 }

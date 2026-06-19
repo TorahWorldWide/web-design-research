@@ -5,164 +5,60 @@
   "tech": [
     "Next.js / React"
   ],
+  "category": "saas",
+  "capture": "extracted",
   "palette": {
     "pageBg": "#191918",
-    "primaryText": "#000000",
-    "accent": "#f6f5f4",
-    "textColors": [
+    "primaryText": "#ffffff",
+    "accent": "#097fe8",
+    "rawTextColors": [
       "#000000",
       "#f6f5f4",
       "#a39e98",
       "#ffffff",
       "#615d59",
-      "#0075de"
+      "#0075de",
+      "#097fe8",
+      "#62aef0"
     ],
-    "bgColors": [
+    "rawBgColors": [
       "#ffffff",
       "#000000",
       "#f6f5f4",
       "#191918",
       "#097fe8",
-      "#f9f9f8"
+      "#f9f9f8",
+      "#02093a",
+      "#62aef0"
     ]
   },
   "typography": {
-    "primaryFont": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol",
-    "fontStack": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
-    "sizes": [
-      "16px",
-      "14px",
-      "20px",
-      "24px",
-      "12px",
-      "40px",
-      "22px",
-      "48px",
-      "54px",
-      "42px"
-    ],
+    "fontStack": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\",system-ui,-apple-system,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif",
+    "rawPrimaryFont": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
     "h1": {
-      "fontSize": "64px",
-      "fontWeight": "700",
-      "fontFamily": "NotionInter",
-      "lineHeight": "64px",
-      "letterSpacing": "-2.125px",
-      "color": "#ffffff",
-      "textTransform": "none"
-    },
-    "headings": {
-      "h1": {
-        "fontSize": "64px",
-        "fontWeight": "700",
-        "fontFamily": "NotionInter",
-        "lineHeight": "64px",
-        "letterSpacing": "-2.125px",
-        "color": "#ffffff",
-        "textTransform": "none"
-      },
-      "h2": {
-        "fontSize": "54px",
-        "fontWeight": "700",
-        "fontFamily": "NotionInter",
-        "lineHeight": "56px",
-        "letterSpacing": "-1.875px",
-        "color": "#000000",
-        "textTransform": "none"
-      },
-      "h3": {
-        "fontSize": "14px",
-        "fontWeight": "400",
-        "fontFamily": "NotionInter",
-        "lineHeight": "20px",
-        "letterSpacing": "normal",
-        "color": "#000000",
-        "textTransform": "none"
-      }
+      "size": "60px",
+      "weight": "700"
     }
   },
   "shape": {
-    "radii": [
+    "buttonRadius": "12px",
+    "rawRadii": [
       "8px",
       "12px",
       "4px",
       "9999px"
-    ],
-    "buttonRadius": "8px"
+    ]
   },
-  "button": {
-    "text": "Get Notion free",
-    "bg": "#455dd3",
-    "color": "#ffffff",
-    "fontSize": "16px",
-    "fontWeight": "500",
-    "fontFamily": "NotionInter",
-    "padding": "4px 14px",
-    "borderRadius": "8px",
-    "border": "1px solid rgba(255, 255, 255, 0)",
-    "textTransform": "none",
-    "letterSpacing": "normal",
-    "boxShadow": "none",
-    "transition": "all",
-    "cursor": "pointer"
-  },
-  "hoverBehaviour": {
-    "idx": 0,
-    "transition": "all",
-    "changed": {
-      "color": {
-        "from": "rgb(163, 158, 152)",
-        "to": "rgb(97, 93, 89)"
-      },
-      "borderColor": {
-        "from": "rgb(163, 158, 152)",
-        "to": "rgb(97, 93, 89)"
-      }
-    }
-  },
-  "hasTransitions": true,
-  "fontFiles": [
-    "NotionInter :: /front-static/fonts/NotionInter-Regular.woff2",
-    "NotionInter :: /front-static/fonts/NotionInter-Regular.woff",
-    "NotionInter :: /front-static/fonts/NotionInter-Medium.woff2",
-    "NotionInter :: /front-static/fonts/NotionInter-Medium.woff",
-    "NotionInter :: /front-static/fonts/NotionInter-SemiBold.woff2",
-    "NotionInter :: /front-static/fonts/NotionInter-SemiBold.woff",
-    "NotionInter :: /front-static/fonts/NotionInter-Bold.woff2",
-    "NotionInter :: /front-static/fonts/NotionInter-Bold.woff",
-    "\"Noto Sans Arabic\" :: /front-static/fonts/noto-sans-arabic.woff2",
-    "\"Noto Sans Hebrew\" :: /front-static/fonts/noto-sans-hebrew.woff2",
-    "NotionInter :: /_next/static/media/NotionInter-Italic.556b6a81.woff2",
-    "NotionInter :: /_next/static/media/NotionInter-Italic.77670713.woff",
-    "NotionInter :: /_next/static/media/NotionInter-MediumItalic.bc4c8878.woff2",
-    "NotionInter :: /_next/static/media/NotionInter-MediumItalic.43777ed6.woff",
-    "NotionInter :: /_next/static/media/NotionInter-SemiBoldItalic.cb46786e.woff2",
-    "NotionInter :: /_next/static/media/NotionInter-SemiBoldItalic.5ef1a0b4.woff",
-    "NotionInter :: /_next/static/media/NotionInter-BoldItalic.e4b84cf2.woff2",
-    "NotionInter :: /_next/static/media/NotionInter-BoldItalic.3df3bb10.woff",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-Regular-Web.d7bfb4be.woff2",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-Regular-Web.2cefb6ff.woff",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-RegularItalic-Web.f823179b.woff2",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-RegularItalic-Web.fa2b7345.woff",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-Bold-Web.98529464.woff2",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-Bold-Web.63193098.woff",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-BoldItalic-Web.8907ab5f.woff2",
-    "\"Lyon Text\" :: /_next/static/media/LyonText-BoldItalic-Web.fa5375df.woff",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-Regular.bf09337b.woff2",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-Regular.7554f0d4.woff",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-Italic.176fc5a8.woff2",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-Italic.8eb35e9b.woff",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-Bold.a8b41a99.woff2",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-Bold.bbe5a5e6.woff",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-BoldItalic.12c55f12.woff2",
-    "\"iA Writer Mono\" :: /_next/static/media/iAWriterMonoS-BoldItalic.215d7c93.woff",
-    "\"Permanent Marker\" :: /_next/static/media/permanent-marker.18b85f55.woff",
-    "NotionInter :: /_next/static/media/NotionInter-Regular-i18n.4c3206e4.woff2",
-    "NotionInter :: /_next/static/media/NotionInter-Regular-i18n.7e295069.woff",
-    "NotionInter :: /_next/static/media/NotionInter-Italic-i18n.44620e58.woff2",
-    "NotionInter :: /_next/static/media/NotionInter-Italic-i18n.b1e5fe40.woff",
-    "NotionInter :: /_next/static/media/NotionInter-Medium-i18n.f0b1a5fc.woff2"
+  "nav": [
+    "Product",
+    "Solutions",
+    "Pricing",
+    "Docs"
   ],
-  "heroImage": "https://www.notion.com/front-static/meta/custom-agents-og.png",
-  "ogTitle": "The AI workspace that works for you. | Notion",
+  "cta": {
+    "primary": "Get started",
+    "ghost": "Sign in"
+  },
+  "ogImage": "https://www.notion.com/front-static/meta/custom-agents-og.png",
   "title": "The AI workspace that works for you. | Notion"
 }

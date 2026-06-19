@@ -3,33 +3,39 @@
   "source": "https://www.gucci.com/us/en/",
   "scrapedAt": "2026-06-03T02:17:54.635Z",
   "tech": [],
+  "category": "luxury",
+  "capture": "blocked (tokens are category archetype, not extracted)",
   "palette": {
     "pageBg": "#ffffff",
-    "primaryText": "#000000",
-    "accent": "#1151ff",
-    "textColors": [
+    "primaryText": "#141414",
+    "accent": "#9a7b4f",
+    "rawTextColors": [
       "#000000"
     ],
-    "bgColors": []
+    "rawBgColors": []
   },
   "typography": {
-    "primaryFont": "Times New Roman",
-    "fontStack": "\"Times New Roman\"",
-    "sizes": [
-      "16px"
-    ],
-    "h1": {},
-    "headings": {}
+    "fontStack": "Georgia,\"Times New Roman\",\"Bodoni MT\",Didot,serif",
+    "rawPrimaryFont": "\"Times New Roman\"",
+    "h1": {
+      "size": "52px",
+      "weight": "400"
+    }
   },
   "shape": {
-    "radii": [],
-    "buttonRadius": "0px"
+    "buttonRadius": "0px",
+    "rawRadii": []
   },
-  "button": {},
-  "hoverBehaviour": null,
-  "hasTransitions": false,
-  "fontFiles": [],
-  "heroImage": "",
-  "ogTitle": null,
+  "nav": [
+    "The Maison",
+    "High Jewelry",
+    "Collections",
+    "Boutiques"
+  ],
+  "cta": {
+    "primary": "Discover",
+    "ghost": "Book an Appointment"
+  },
+  "ogImage": "",
   "title": ""
 }

@@ -3,33 +3,39 @@
   "source": "https://shop.lululemon.com",
   "scrapedAt": "2026-06-03T02:18:43.241Z",
   "tech": [],
+  "category": "sport",
+  "capture": "blocked (tokens are category archetype, not extracted)",
   "palette": {
     "pageBg": "#ffffff",
-    "primaryText": "#000000",
-    "accent": "#1151ff",
-    "textColors": [
+    "primaryText": "#141414",
+    "accent": "#111111",
+    "rawTextColors": [
       "#000000"
     ],
-    "bgColors": []
+    "rawBgColors": []
   },
   "typography": {
-    "primaryFont": "Times New Roman",
-    "fontStack": "\"Times New Roman\"",
-    "sizes": [
-      "16px"
-    ],
-    "h1": {},
-    "headings": {}
+    "fontStack": "\"Helvetica Neue\",Helvetica,Arial,\"Arial Narrow\",sans-serif",
+    "rawPrimaryFont": "\"Times New Roman\"",
+    "h1": {
+      "size": "76px",
+      "weight": "800"
+    }
   },
   "shape": {
-    "radii": [],
-    "buttonRadius": "0px"
+    "buttonRadius": "30px",
+    "rawRadii": []
   },
-  "button": {},
-  "hoverBehaviour": null,
-  "hasTransitions": false,
-  "fontFiles": [],
-  "heroImage": "",
-  "ogTitle": null,
+  "nav": [
+    "Men",
+    "Women",
+    "Kids",
+    "Sale"
+  ],
+  "cta": {
+    "primary": "Shop",
+    "ghost": "Explore"
+  },
+  "ogImage": "",
   "title": ""
 }

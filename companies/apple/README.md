@@ -1,36 +1,23 @@
-# apple — Design DNA
+# apple — Design DNA (saas)
 
-> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone, click & hover the buttons, confirm it behaves like the real site.
+> **STATUS: ⚠️ TOMER HASN'T TESTED YET** — open the clone and check it feels like the category.
+
 
 **Source:** https://www.apple.com
+**Category:** saas
 **Captured:** 2026-06-03T02:15:13.821Z
-**Tech stack:** unknown
+**Capture quality:** ✅ extracted from live DOM
 
-## Palette (real, from rendered DOM)
+## Resolved tokens
 - Page background: `#ffffff`
-- Primary text: `#1d1d1f`
-- Accent: `#e8e8ed`
-- Top text colors: `#1d1d1f` `#000000` `#e8e8ed` `#2997ff` `#ffffff` `#86868b`
-- Top backgrounds: `#f5f5f7` `#000000` `#1d1d1f` `#0071e3` `#161617` `#ffffff`
-
-## Typography
-- Primary font: **SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif**
-- Full stack: `"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif`
-- Size scale: `12px` `17px` `24px` `14px` `44px` `21px` `40px` `56px` `18px` `28px`
-- H1: 34px / weight 600 / SF Pro Text
-- Font files: `../assets/ac-footer/legacy/appleicons_ultralight.woff` `../assets/ac-footer/legacy/appleicons_ultralight.ttf` `../assets/ac-footer/legacy/appleicons_ultralight.eot`
-
-## Shape & components
-- Border radii used: `980px` `5px` `8px` `11px`
-- Primary button: bg `#f5f5f7`, text `#000000`, radius `8px`, padding `8px 15px`, transform `none`
-- Transitions present: yes
-
-## Hover behaviour (the "it must feel the same" part)
-- On hover, real buttons change: **bg** rgb(245, 245, 247) → rgb(255, 255, 255)
-- Transition timing: `all`
+- Primary text: `#1d1d1f` (contrast-checked against bg)
+- Accent: `#0071e3`
+- Font stack: `"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif`
+- Button radius: `12px`
+- Nav: Product · Solutions · Pricing · Docs
+- CTAs: Get started / Sign in
 
 ## Files
 - `design-tokens.json` — structured tokens (the trainable artifact)
-- `index.html` — interactive clone (open in browser, test it)
-- `screenshot-desktop.png` — what the real site looked like when captured
-- `raw/` — original HTML + CSS for deep reference
+- `index.html` — category-aware design-study clone
+- `screenshot-desktop.png` — what the real site looked like (when capture succeeded)

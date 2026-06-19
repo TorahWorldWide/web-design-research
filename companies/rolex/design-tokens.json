@@ -3,52 +3,39 @@
   "source": "https://www.rolex.com",
   "scrapedAt": "2026-06-03T02:28:48.100Z",
   "tech": [],
+  "category": "luxury",
+  "capture": "blocked (tokens are category archetype, not extracted)",
   "palette": {
     "pageBg": "#ffffff",
-    "primaryText": "#000000",
-    "accent": "#1151ff",
-    "textColors": [
+    "primaryText": "#141414",
+    "accent": "#9a7b4f",
+    "rawTextColors": [
       "#000000"
     ],
-    "bgColors": []
+    "rawBgColors": []
   },
   "typography": {
-    "primaryFont": "Times New Roman",
-    "fontStack": "\"Times New Roman\"",
-    "sizes": [
-      "16px",
-      "32px"
-    ],
+    "fontStack": "Georgia,\"Times New Roman\",\"Bodoni MT\",Didot,serif",
+    "rawPrimaryFont": "\"Times New Roman\"",
     "h1": {
-      "fontSize": "32px",
-      "fontWeight": "700",
-      "fontFamily": "\"Times New Roman\"",
-      "lineHeight": "normal",
-      "letterSpacing": "normal",
-      "color": "#000000",
-      "textTransform": "none"
-    },
-    "headings": {
-      "h1": {
-        "fontSize": "32px",
-        "fontWeight": "700",
-        "fontFamily": "\"Times New Roman\"",
-        "lineHeight": "normal",
-        "letterSpacing": "normal",
-        "color": "#000000",
-        "textTransform": "none"
-      }
+      "size": "52px",
+      "weight": "400"
     }
   },
   "shape": {
-    "radii": [],
-    "buttonRadius": "0px"
+    "buttonRadius": "0px",
+    "rawRadii": []
   },
-  "button": {},
-  "hoverBehaviour": null,
-  "hasTransitions": false,
-  "fontFiles": [],
-  "heroImage": "",
-  "ogTitle": null,
+  "nav": [
+    "The Maison",
+    "High Jewelry",
+    "Collections",
+    "Boutiques"
+  ],
+  "cta": {
+    "primary": "Discover",
+    "ghost": "Book an Appointment"
+  },
+  "ogImage": "",
   "title": "Access Denied"
 }

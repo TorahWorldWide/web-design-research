@@ -5,19 +5,23 @@
   "tech": [
     "React"
   ],
+  "category": "saas",
+  "capture": "extracted",
   "palette": {
     "pageBg": "#f8f8f6",
     "primaryText": "#121212",
-    "accent": "#141413",
-    "textColors": [
+    "accent": "#4f46e5",
+    "rawTextColors": [
       "#141413",
       "#faf9f5",
       "#3d3d3a",
       "#9c9a92",
       "#0b0b0b",
-      "#73726c"
+      "#73726c",
+      "#c2c0b6",
+      "#ffffff"
     ],
-    "bgColors": [
+    "rawBgColors": [
       "#ffffff",
       "#faf9f5",
       "#f8f8f6",
@@ -27,111 +31,32 @@
     ]
   },
   "typography": {
-    "primaryFont": "Anthropic Sans\", system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
-    "fontStack": "\"Anthropic Sans\", system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
-    "sizes": [
-      "14px",
-      "12px",
-      "16px",
-      "15px",
-      "11px",
-      "24px",
-      "30px",
-      "56px",
-      "18px"
-    ],
-    "h1": {},
-    "headings": {
-      "h2": {
-        "fontSize": "56px",
-        "fontWeight": "330",
-        "fontFamily": "\"Anthropic Serif\"",
-        "lineHeight": "67.2px",
-        "letterSpacing": "normal",
-        "color": "#141413",
-        "textTransform": "none"
-      },
-      "h3": {
-        "fontSize": "17px",
-        "fontWeight": "400",
-        "fontFamily": "\"Anthropic Sans\"",
-        "lineHeight": "25.5px",
-        "letterSpacing": "normal",
-        "color": "#3d3d3a",
-        "textTransform": "none"
-      }
+    "fontStack": "\"Anthropic Sans\", system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif,system-ui,-apple-system,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif",
+    "rawPrimaryFont": "\"Anthropic Sans\", system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "h1": {
+      "size": "60px",
+      "weight": "700"
     }
   },
   "shape": {
-    "radii": [
+    "buttonRadius": "12px",
+    "rawRadii": [
       "9.6px",
       "8px",
       "16px",
       "24px"
-    ],
-    "buttonRadius": "0px"
+    ]
   },
-  "button": {
-    "text": "",
-    "bg": null,
-    "color": "#3d3d3a",
-    "fontSize": "15px",
-    "fontWeight": "400",
-    "fontFamily": "\"Anthropic Sans\"",
-    "padding": "0px",
-    "borderRadius": "0px",
-    "border": "0px solid color(srgb 0.0431373 0.0431373 0.0431373 / 0.1)",
-    "textTransform": "none",
-    "letterSpacing": "normal",
-    "boxShadow": "none",
-    "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
-    "cursor": "pointer"
-  },
-  "hoverBehaviour": null,
-  "hasTransitions": true,
-  "fontFiles": [
-    "Anthropicons-Variable :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c0f671921-Bdg_ZDWn.woff2",
-    "KaTeX_AMS :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cfc8d24e7-BQhdFMY1.woff2",
-    "KaTeX_AMS :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cfc8d24e7-DMm9YOAa.woff",
-    "KaTeX_AMS :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cfc8d24e7-DRggAlZN.ttf",
-    "KaTeX_Caligraphic :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c7b6f821f-Dq_IR9rO.woff2",
-    "KaTeX_Caligraphic :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c7b6f821f-BEiXGLvX.woff",
-    "KaTeX_Caligraphic :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c7b6f821f-ATXxdsX0.ttf",
-    "KaTeX_Caligraphic :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c928badb7-Di6jR-x-.woff2",
-    "KaTeX_Caligraphic :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c928badb7-CTRA-rTL.woff",
-    "KaTeX_Caligraphic :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c928badb7-wX97UBjC.ttf",
-    "KaTeX_Fraktur :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c9beb4a6c-CL6g_b3V.woff2",
-    "KaTeX_Fraktur :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c9beb4a6c-BsDP51OF.woff",
-    "KaTeX_Fraktur :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c9beb4a6c-BdnERNNW.ttf",
-    "KaTeX_Fraktur :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c649816ca-CTYiF6lA.woff2",
-    "KaTeX_Fraktur :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c649816ca-Dxdc4cR9.woff",
-    "KaTeX_Fraktur :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c649816ca-CB_wures.ttf",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c37c7c0f1-Cx986IdX.woff2",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c37c7c0f1-Jm3AIy58.woff",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c37c7c0f1-waoOVXN0.ttf",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cf1705f86-DxDJ3AOS.woff2",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cf1705f86-SpSLRI95.woff",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cf1705f86-DzxPMmG6.ttf",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c3a5c82a2-NWA7e6Wa.woff2",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c3a5c82a2-BMLOBm91.woff",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c3a5c82a2-3WenGoN9.ttf",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c928f7039-B22Nviop.woff2",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c928f7039-Dr94JaBh.woff",
-    "KaTeX_Main :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c928f7039-ypZvNtVU.ttf",
-    "KaTeX_Math :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cbfcbf131-CZnvNsCZ.woff2",
-    "KaTeX_Math :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cbfcbf131-iY-2wyZ7.woff",
-    "KaTeX_Math :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cbfcbf131-B3XSjfu4.ttf",
-    "KaTeX_Math :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c59577b40-t53AETM-.woff2",
-    "KaTeX_Math :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c59577b40-DA0__PXp.woff",
-    "KaTeX_Math :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c59577b40-flOr_0UB.ttf",
-    "KaTeX_SansSerif :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ca380e5bf-D1sUS0GD.woff2",
-    "KaTeX_SansSerif :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ca380e5bf-DbIhKOiC.woff",
-    "KaTeX_SansSerif :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/ca380e5bf-CFMepnvq.ttf",
-    "KaTeX_SansSerif :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cd710415c-C3H0VqGB.woff2",
-    "KaTeX_SansSerif :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cd710415c-DN2j7dab.woff",
-    "KaTeX_SansSerif :: https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cd710415c-YYjJ1zSn.ttf"
+  "nav": [
+    "Product",
+    "Solutions",
+    "Pricing",
+    "Docs"
   ],
-  "heroImage": "https://claude.ai/images/claude_ogimage.png",
-  "ogTitle": "Claude",
+  "cta": {
+    "primary": "Get started",
+    "ghost": "Sign in"
+  },
+  "ogImage": "https://claude.ai/images/claude_ogimage.png",
   "title": "Sign in - Claude"
 }
